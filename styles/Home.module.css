@@ -33,7 +33,14 @@
 }
 
 .hero {
+  position: absolute;
   z-index: -100;
+}
+
+.hero img {
+  object-fit: contain;
+  height: 100vh;
+  width: 100vh;
 }
 
 .back {
@@ -71,5 +78,10 @@
   .bottom {
     width: 100vw;
     height: 50vh;
+  }
+
+  .hero img {
+    height: 100vw;
+    width: 100vw;
   }
 }

@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -17,12 +16,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.hero}>
-          <Image
-            src="/popol_logo.png"
-            alt="popol pol"
-            layout="fill"
-            objectFit="contain"
-            quality={100} />
+          <img src="/popol_logo.png"
+          />
         </div>
       </main>
     </div>
