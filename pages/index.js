@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -9,14 +10,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          This is popol pol.
-        </h1>
-      </main>
+      <div className={styles.back}>
+        <div className={styles.top}></div>
+        <div className={styles.bottom}></div>
+      </div>
 
-      <footer className={styles.footer}>
-      </footer>
+      <main className={styles.main}>
+        <div className={styles.hero}>
+          <Image
+            src="/popol_logo.png"
+            alt="popol pol"
+            layout="fill"
+            objectFit="contain"
+            quality={100} />
+        </div>
+      </main>
     </div>
   )
 }
