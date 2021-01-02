@@ -2,7 +2,8 @@ name: github pages
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
@@ -14,7 +15,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: "12.x"
 
       # npm install の際にキャッシュを使うよう設定
       - name: Cache dependencies
@@ -27,8 +28,6 @@ jobs:
 
       - name: install
         run: npm install --frozen-lockfile
-      - name: build
-        run: npm run build
 
       - name: export
         run: npm run export
