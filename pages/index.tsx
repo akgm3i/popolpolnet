@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,10 +16,14 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.hero}>
-          <img src="/popol_logo.png"
+          <img
+            alt='popol'
+            src="/popol_logo.png"
           />
         </div>
       </main>
     </div>
   )
 }
+
+export default Home

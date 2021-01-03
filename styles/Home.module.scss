@@ -1,25 +1,25 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
 }
 
 .title {
   margin: 0;
-  line-height: 1.15;
   font-size: 4rem;
+  line-height: 1.15;
 }
 
 .title,
@@ -28,8 +28,8 @@
 }
 
 .description {
-  line-height: 1.5;
   font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .hero {
@@ -38,18 +38,18 @@
 }
 
 .hero img {
-  object-fit: contain;
-  height: 100vh;
   width: 100vh;
+  height: 100vh;
+  object-fit: contain;
 }
 
 .back {
   position: absolute;
+  z-index: -200;
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  z-index: -200;
   display: flex;
 }
 
@@ -81,7 +81,7 @@
   }
 
   .hero img {
-    height: 100vw;
     width: 100vw;
+    height: 100vw;
   }
 }
