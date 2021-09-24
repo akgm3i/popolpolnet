@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="429.578" height="667" viewBox="0 0 429.578 667">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdedff;
+      }
+
+      .cls-2 {
+        fill: #fedef6;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #a6d2bd;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4_copy" data-name="Layer 4 copy" transform="translate(1.414)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M375,0H0V521L375,146Z" transform="translate(25.875)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-2" d="M0,667V813H375V292Z" transform="translate(25.875 -146)"/>
+    <line id="Line_2" data-name="Line 2" class="cls-3" y1="426.75" x2="426.75" transform="translate(0 120.125)"/>
+  </g>
+</svg>
