@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213" height="270" viewBox="0 0 213 270">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a6d2bd;
+      }
+
+      .cls-2 {
+        fill: #cdffea;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-55.125 -198.5)">
+    <g id="Layer_2_copy_5" data-name="Layer 2 copy 5" transform="translate(55.125 198.5)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="30" height="215" transform="translate(26.5 55)"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-1" width="83" height="24" transform="translate(0 246)"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-1" width="57" height="25" transform="translate(0 55)"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-1" width="30" height="215" transform="translate(186.5 215) rotate(180)"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-1" width="83" height="24" transform="translate(213 24) rotate(180)"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-1" width="57" height="25" transform="translate(213 215) rotate(180)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-1" d="M295,507a80,80,0,1,0,80,80A80,80,0,0,0,295,507Zm0,132.5c-24.855,0-45-23.5-45-52.5s20.145-52.5,45-52.5S340,558,340,587,319.855,639.5,295,639.5Z" transform="translate(-188.5 -452)"/>
+    </g>
+    <g id="Layer_2_copy_7" data-name="Layer 2 copy 7" transform="translate(58.625 203.5)">
+      <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-2" width="28" height="205" transform="translate(28 55)"/>
+      <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-2" width="79" height="22" transform="translate(2.5 238)"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-2" width="56" height="22" transform="translate(0 55)"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-2" width="28" height="205" transform="translate(178 205) rotate(180)"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-2" width="79" height="22" transform="translate(203.5 22) rotate(180)"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-2" width="56" height="22" transform="translate(206 205) rotate(180)"/>
+      <path id="Path_4" data-name="Path 4" class="cls-2" d="M300,517a75,75,0,1,0,75,75A75,75,0,0,0,300,517Zm0,127.5c-24.855,0-45-23.5-45-52.5s20.145-52.5,45-52.5S345,563,345,592,324.855,644.5,300,644.5Z" transform="translate(-197 -462)"/>
+    </g>
+  </g>
+</svg>
