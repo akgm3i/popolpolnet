@@ -54,7 +54,7 @@ const Home: React.FC = () => {
               </div>
             </div>
             <div>
-              <img src="https://pbs.twimg.com/profile_images/1250338021435535360/bLtJVXTd_400x400.jpg" alt="vibespeak" />
+              <img src="https://pbs.twimg.com/profile_images/1441047915238092809/BrnQgkJM_400x400.jpg" alt="vibespeak" />
               <div>
                 <span>Vibe$peak</span>
                 <span className={styles.rubi}>Vibespeak</span>
